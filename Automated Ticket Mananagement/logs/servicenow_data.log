@@ -1,0 +1,79 @@
+2025-02-28 23:19:49,096 - WARNING - From C:\Users\Dheeraj\AppData\Local\Programs\Python\Python312\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-02-28 23:19:51,408 - INFO - \u2705 Hugging Face model loaded successfully.
+2025-02-28 23:19:51,422 - INFO - \u2705 Available agents loaded: ['Abel Tuter', 'Adela Cervantsz', 'Alejandra Prenatt', 'Alejandro Mascall', 'Alene Rabeck', 'Alfonso Griglen', 'Alissa Mountjoy']
+2025-02-28 23:19:51,422 - INFO - \U0001f50d Attempting to get sys_id for group: INC_Demo_group - URL: https://dev285834.service-now.com/api/now/table/sys_user_group?sysparm_query=name=INC_Demo_group&sysparm_limit=1
+2025-02-28 23:19:53,050 - INFO - \u2705 Group Found: INC_Demo_group -> sys_id: 122820a083842210c36c9b80deaad36c
+2025-02-28 23:19:53,050 - INFO - \U0001f50d Fetching data from: https://dev285834.service-now.com/api/now/table/incident?sysparm_query=assignment_group=122820a083842210c36c9b80deaad36c^incident_stateIN1,2,3&sysparm_fields=number,short_description,sys_id,description&sysparm_limit=1000
+2025-02-28 23:19:54,102 - INFO - \u2705 4 records found for incident
+2025-02-28 23:19:54,102 - INFO - \U0001f50d Attempting to get sys_id for group: SR_Demo_group - URL: https://dev285834.service-now.com/api/now/table/sys_user_group?sysparm_query=name=SR_Demo_group&sysparm_limit=1
+2025-02-28 23:19:55,167 - INFO - \u2705 Group Found: SR_Demo_group -> sys_id: cd48e0a083842210c36c9b80deaad308
+2025-02-28 23:19:55,167 - INFO - \U0001f50d Fetching data from: https://dev285834.service-now.com/api/now/table/sc_task?sysparm_query=assignment_group=cd48e0a083842210c36c9b80deaad308^task_stateIN1,2,3&sysparm_fields=number,short_description,sys_id,description&sysparm_limit=1000
+2025-02-28 23:19:56,214 - INFO - \u2705 1 records found for sc_task
+2025-02-28 23:19:56,214 - INFO - \U0001f50d Attempting to get sys_id for group: CR_Demo_group - URL: https://dev285834.service-now.com/api/now/table/sys_user_group?sysparm_query=name=CR_Demo_group&sysparm_limit=1
+2025-02-28 23:19:57,287 - INFO - \u2705 Group Found: CR_Demo_group -> sys_id: e4782ca083842210c36c9b80deaad34a
+2025-02-28 23:19:57,287 - INFO - \U0001f50d Fetching data from: https://dev285834.service-now.com/api/now/table/change_request?sysparm_query=assignment_group=e4782ca083842210c36c9b80deaad34a^task_stateIN1,2,3&sysparm_fields=number,short_description,sys_id,description&sysparm_limit=1000
+2025-02-28 23:19:58,300 - INFO - \u2705 5 records found for change_request
+2025-02-28 23:19:58,300 - INFO - \U0001f4cb Fetched Ticket Data: {'incidents': [{'number': 'INC0009009', 'short_description': 'Unable to access the shared folder.', 'sys_id': '57af7aec73d423002728660c4cf6a71c', 'description': 'Unable to access the shared folder. Please provide access.'}, {'number': 'INC0000057', 'short_description': 'Performance problems with wifi', 'sys_id': '78271e1347c12200e0ef563dbb9a7109', 'description': 'Wifi connection seems slow. Webpages are taking a very long time to load.'}, {'number': 'INC0010003', 'short_description': ' System Slowness ', 'sys_id': 'e39830ec83c42210c36c9b80deaad3fe', 'description': ''}, {'number': 'INC0007002', 'short_description': 'Need access to the common drive.', 'sys_id': 'ff4c21c4735123002728660c4cf6a758', 'description': 'Need access to the common drive for sharing files which can be accessed by all members. Please provide access.'}], 'service_requests': [{'number': 'SCTASK0010001', 'short_description': 'Order from vendor or move from in-stock inventory', 'sys_id': 'd8781eb88304a210c36c9b80deaad353', 'description': 'Order from vendor or move from in-stock inventory'}], 'change_requests': [{'number': 'CHG0040003', 'short_description': 'Please reboot ApplicationServerHelpdesk', 'sys_id': '0126961347c12200e0ef563dbb9a717e', 'description': ''}, {'number': 'CHG0000008', 'short_description': 'Install new Cisco', 'sys_id': '46cb2f54a9fe198101cf6814a2754606', 'description': 'Please install new Cat. 6500 in Data center 01\n        '}, {'number': 'CHG0000006', 'short_description': 'Put another 100 Gb drive on the 2nd Floor Server        ', 'sys_id': '9d3f823bc611228700376cc3b4b5b87b', 'description': "We're going to put another 100 GB drive on the floor 2\n            server.\n\n            Needs a 100 GB SCSI II Ultra Drive.\n        "}, {'number': 'CHG0000032', 'short_description': 'Update location of Blackberry service', 'sys_id': 'a0701a1037310200f212cc028e41f14d', 'description': ''}, {'number': 'CHG0040006', 'short_description': 'Add network switch to cabinet', 'sys_id': 'b0dbda5347c12200e0ef563dbb9a718f', 'description': 'This standard change template describes adding a new network switch to a datacenter cabinet'}]}
+2025-02-28 23:19:58,300 - INFO - \u2705 Tickets assigned to agents: {'Abel Tuter': [{'number': 'INC0009009', 'short_description': 'Unable to access the shared folder.', 'sys_id': '57af7aec73d423002728660c4cf6a71c', 'description': 'Unable to access the shared folder. Please provide access.'}, {'number': 'CHG0000006', 'short_description': 'Put another 100 Gb drive on the 2nd Floor Server        ', 'sys_id': '9d3f823bc611228700376cc3b4b5b87b', 'description': "We're going to put another 100 GB drive on the floor 2\n            server.\n\n            Needs a 100 GB SCSI II Ultra Drive.\n        "}], 'Adela Cervantsz': [{'number': 'INC0000057', 'short_description': 'Performance problems with wifi', 'sys_id': '78271e1347c12200e0ef563dbb9a7109', 'description': 'Wifi connection seems slow. Webpages are taking a very long time to load.'}, {'number': 'CHG0000032', 'short_description': 'Update location of Blackberry service', 'sys_id': 'a0701a1037310200f212cc028e41f14d', 'description': ''}], 'Alejandra Prenatt': [{'number': 'INC0010003', 'short_description': ' System Slowness ', 'sys_id': 'e39830ec83c42210c36c9b80deaad3fe', 'description': ''}, {'number': 'CHG0040006', 'short_description': 'Add network switch to cabinet', 'sys_id': 'b0dbda5347c12200e0ef563dbb9a718f', 'description': 'This standard change template describes adding a new network switch to a datacenter cabinet'}], 'Alejandro Mascall': [{'number': 'INC0007002', 'short_description': 'Need access to the common drive.', 'sys_id': 'ff4c21c4735123002728660c4cf6a758', 'description': 'Need access to the common drive for sharing files which can be accessed by all members. Please provide access.'}], 'Alene Rabeck': [{'number': 'SCTASK0010001', 'short_description': 'Order from vendor or move from in-stock inventory', 'sys_id': 'd8781eb88304a210c36c9b80deaad353', 'description': 'Order from vendor or move from in-stock inventory'}], 'Alfonso Griglen': [{'number': 'CHG0040003', 'short_description': 'Please reboot ApplicationServerHelpdesk', 'sys_id': '0126961347c12200e0ef563dbb9a717e', 'description': ''}], 'Alissa Mountjoy': [{'number': 'CHG0000008', 'short_description': 'Install new Cisco', 'sys_id': '46cb2f54a9fe198101cf6814a2754606', 'description': 'Please install new Cat. 6500 in Data center 01\n        '}]}
+2025-02-28 23:19:58,314 - INFO - \U0001f4cb Assigned Ticket Data: {'Abel Tuter': [{'number': 'INC0009009', 'short_description': 'Unable to access the shared folder.', 'sys_id': '57af7aec73d423002728660c4cf6a71c', 'description': 'Unable to access the shared folder. Please provide access.'}, {'number': 'CHG0000006', 'short_description': 'Put another 100 Gb drive on the 2nd Floor Server        ', 'sys_id': '9d3f823bc611228700376cc3b4b5b87b', 'description': "We're going to put another 100 GB drive on the floor 2\n            server.\n\n            Needs a 100 GB SCSI II Ultra Drive.\n        "}], 'Adela Cervantsz': [{'number': 'INC0000057', 'short_description': 'Performance problems with wifi', 'sys_id': '78271e1347c12200e0ef563dbb9a7109', 'description': 'Wifi connection seems slow. Webpages are taking a very long time to load.'}, {'number': 'CHG0000032', 'short_description': 'Update location of Blackberry service', 'sys_id': 'a0701a1037310200f212cc028e41f14d', 'description': ''}], 'Alejandra Prenatt': [{'number': 'INC0010003', 'short_description': ' System Slowness ', 'sys_id': 'e39830ec83c42210c36c9b80deaad3fe', 'description': ''}, {'number': 'CHG0040006', 'short_description': 'Add network switch to cabinet', 'sys_id': 'b0dbda5347c12200e0ef563dbb9a718f', 'description': 'This standard change template describes adding a new network switch to a datacenter cabinet'}], 'Alejandro Mascall': [{'number': 'INC0007002', 'short_description': 'Need access to the common drive.', 'sys_id': 'ff4c21c4735123002728660c4cf6a758', 'description': 'Need access to the common drive for sharing files which can be accessed by all members. Please provide access.'}], 'Alene Rabeck': [{'number': 'SCTASK0010001', 'short_description': 'Order from vendor or move from in-stock inventory', 'sys_id': 'd8781eb88304a210c36c9b80deaad353', 'description': 'Order from vendor or move from in-stock inventory'}], 'Alfonso Griglen': [{'number': 'CHG0040003', 'short_description': 'Please reboot ApplicationServerHelpdesk', 'sys_id': '0126961347c12200e0ef563dbb9a717e', 'description': ''}], 'Alissa Mountjoy': [{'number': 'CHG0000008', 'short_description': 'Install new Cisco', 'sys_id': '46cb2f54a9fe198101cf6814a2754606', 'description': 'Please install new Cat. 6500 in Data center 01\n        '}]}
+2025-02-28 23:19:58,314 - INFO - \U0001f469\u200d\U0001f4bb Processing tickets for agent: Abel Tuter
+2025-02-28 23:19:58,314 - INFO - \u2139\ufe0f Processing ticket type: incidents
+2025-02-28 23:19:58,314 - INFO - \U0001f916 Generating resolution for description: Unable to access the shared folder. Please provide...
+2025-02-28 23:20:02,252 - INFO - \u2705 Generated resolution: Unable to access the shared folder. Please provide access.
+
+Use this API to access the shared folder:
+
+$ chmod -r 4 root
+
+For more details, see: Storage Spaces in Windows 10
+
+Windows users can
+2025-02-28 23:20:04,411 - INFO - \u2705 Record 57af7aec73d423002728660c4cf6a71c updated successfully.
+2025-02-28 23:20:04,411 - INFO - \u2705 Resolution updated for ticket INC0009009 of incidents assigned to agent Abel Tuter
+2025-02-28 23:20:04,411 - INFO - \u2139\ufe0f Processing ticket type: change_requests
+2025-02-28 23:20:04,411 - INFO - \U0001f916 Generating resolution for description: We're going to put another 100 GB drive on the flo...
+2025-02-28 23:20:04,411 - ERROR - \U0001f6a8 Error generating resolution: Input length of input_ids is 50, but `max_length` is set to 50. This can lead to unexpected behavior. You should consider increasing `max_length` or, better yet, setting `max_new_tokens`.
+2025-02-28 23:20:04,411 - INFO - \U0001f469\u200d\U0001f4bb Processing tickets for agent: Adela Cervantsz
+2025-02-28 23:20:04,411 - INFO - \u2139\ufe0f Processing ticket type: incidents
+2025-02-28 23:20:04,411 - INFO - \U0001f916 Generating resolution for description: Wifi connection seems slow. Webpages are taking a ...
+2025-02-28 23:20:06,143 - INFO - \u2705 Generated resolution: Wifi connection seems slow. Webpages are taking a very long time to load. The main Web app only loads about 12 minutes a second and then loads up to 4 minutes. Also, to make the app feel more seamless with the users, more
+2025-02-28 23:20:07,292 - INFO - \u2705 Record 78271e1347c12200e0ef563dbb9a7109 updated successfully.
+2025-02-28 23:20:07,292 - INFO - \u2705 Resolution updated for ticket INC0000057 of incidents assigned to agent Adela Cervantsz
+2025-02-28 23:20:07,292 - INFO - \u2139\ufe0f Processing ticket type: change_requests
+2025-02-28 23:20:07,292 - WARNING - \u26a0\ufe0f No description found for ticket CHG0000032
+2025-02-28 23:20:07,292 - INFO - \U0001f469\u200d\U0001f4bb Processing tickets for agent: Alejandra Prenatt
+2025-02-28 23:20:07,292 - INFO - \u2139\ufe0f Processing ticket type: incidents
+2025-02-28 23:20:07,292 - WARNING - \u26a0\ufe0f No description found for ticket INC0010003
+2025-02-28 23:20:07,292 - INFO - \u2139\ufe0f Processing ticket type: change_requests
+2025-02-28 23:20:07,292 - INFO - \U0001f916 Generating resolution for description: This standard change template describes adding a n...
+2025-02-28 23:20:08,845 - INFO - \u2705 Generated resolution: This standard change template describes adding a new network switch to a datacenter cabinet, this switch must have the name NetworkSwitch. The new switch's name may contain a series of numeric values or its combination of numeric values. Typically, a switch provides
+2025-02-28 23:20:08,845 - INFO - \u2139\ufe0f Skipping resolution update for change request CHG0040006.
+2025-02-28 23:20:08,845 - INFO - \U0001f469\u200d\U0001f4bb Processing tickets for agent: Alejandro Mascall
+2025-02-28 23:20:08,845 - INFO - \u2139\ufe0f Processing ticket type: incidents
+2025-02-28 23:20:08,845 - INFO - \U0001f916 Generating resolution for description: Need access to the common drive for sharing files ...
+2025-02-28 23:20:10,146 - INFO - \u2705 Generated resolution: Need access to the common drive for sharing files which can be accessed by all members. Please provide access.
+
+RTC file storage services and other support for using RTC files as data storage
+
+RTC file access and modification/copy management
+2025-02-28 23:20:11,292 - INFO - \u2705 Record ff4c21c4735123002728660c4cf6a758 updated successfully.
+2025-02-28 23:20:11,292 - INFO - \u2705 Resolution updated for ticket INC0007002 of incidents assigned to agent Alejandro Mascall
+2025-02-28 23:20:11,292 - INFO - \U0001f469\u200d\U0001f4bb Processing tickets for agent: Alene Rabeck
+2025-02-28 23:20:11,292 - INFO - \u2139\ufe0f Processing ticket type: service_requests
+2025-02-28 23:20:11,292 - INFO - \U0001f916 Generating resolution for description: Order from vendor or move from in-stock inventory...
+2025-02-28 23:20:12,768 - INFO - \u2705 Generated resolution: Order from vendor or move from in-stock inventory to non-stock in-stock at local Target in a matter of minutes. All orders must conform to local Target policy and are subject to availability and availability conditions.
+2025-02-28 23:20:14,236 - INFO - \u2705 Record d8781eb88304a210c36c9b80deaad353 updated successfully.
+2025-02-28 23:20:14,236 - INFO - \u2705 Resolution updated for ticket SCTASK0010001 of service_requests assigned to agent Alene Rabeck
+2025-02-28 23:20:14,236 - INFO - \U0001f469\u200d\U0001f4bb Processing tickets for agent: Alfonso Griglen
+2025-02-28 23:20:14,236 - INFO - \u2139\ufe0f Processing ticket type: change_requests
+2025-02-28 23:20:14,236 - WARNING - \u26a0\ufe0f No description found for ticket CHG0040003
+2025-02-28 23:20:14,236 - INFO - \U0001f469\u200d\U0001f4bb Processing tickets for agent: Alissa Mountjoy
+2025-02-28 23:20:14,236 - INFO - \u2139\ufe0f Processing ticket type: change_requests
+2025-02-28 23:20:14,236 - INFO - \U0001f916 Generating resolution for description: Please install new Cat. 6500 in Data center 01
+   ...
+2025-02-28 23:20:15,627 - INFO - \u2705 Generated resolution: Please install new Cat. 6500 in Data center 01
+                     \u25bc
+
+1. Find the next line in cat.7. In the previous
+2025-02-28 23:20:15,628 - INFO - \u2139\ufe0f Skipping resolution update for change request CHG0000008.
