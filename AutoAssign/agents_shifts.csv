@@ -1,0 +1,10 @@
+Name,Shift,start,end,On_Leave,INC_Asignment_groups,SR_Asignment_groups,CR_Asignment_groups
+Abel Tuter,S1,6,15,No,INC_Demo_group,SR_Demo_group,CR_Demo_group
+Adela Cervantsz,S2,15,22,No,INC_Demo_group,SR_Demo_group,CR_Demo_group
+Aileen Mottern,S3,22,6,Yes,INC_Demo_group,SR_Demo_group,CR_Demo_group
+Alejandra Prenatt,S1,6,15,No,INC_Demo_group,SR_Demo_group,CR_Demo_group
+Alejandro Mascall,S2,15,22,No,INC_Demo_group,SR_Demo_group,CR_Demo_group
+Alene Rabeck,S3,22,6,No,INC_Demo_group,SR_Demo_group,CR_Demo_group
+Alfonso Griglen,S1,6,15,Yes,INC_Demo_group,SR_Demo_group,CR_Demo_group
+Alissa Mountjoy,S2,15,22,No,INC_Demo_group,SR_Demo_group,CR_Demo_group
+Allan Schwantd,S3,22,6,No,INC_Demo_group,SR_Demo_group,CR_Demo_group
