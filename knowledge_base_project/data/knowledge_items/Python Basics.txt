@@ -1,0 +1,13 @@
+Python Basics
+Python is a versatile, high-level programming language known for its simplicity and readability. It’s widely used in various fields, including web development, data analysis, machine learning, and automation. Here's a brief overview of Python's core features and basic concepts:
+
+1. Variables and Data Types
+In Python, variables are used to store data. You don't need to explicitly declare the type of a variable; Python automatically infers it. Some common data types include:
+
+Integer (int): Whole numbers, e.g., 5, 100.
+
+Float (float): Decimal numbers, e.g., 3.14, 0.5.
+
+String (str): Sequence of characters enclosed in quotes, e.g., "hello", 'Python'.
+
+Boolean (bool): Represents True or False.
