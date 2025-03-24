@@ -1,0 +1,2 @@
+# requirements.txt
+# This project uses only built-in Python modules (including tkinter).
