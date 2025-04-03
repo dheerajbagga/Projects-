@@ -1,0 +1,53 @@
+Knowledge Base Article: Windows System Slowness
+Title: Windows System Slowness
+Introduction:
+Windows system slowness is a common issue that can occur due to several reasons. It can
+negatively impact productivity and the overall experience of using the system. This article outlines
+common causes of system slowness and provides troubleshooting steps to resolve the issue.
+Common Causes of System Slowness:
+1. **High CPU Usage**:
+   - Background processes and apps consuming excessive CPU can slow down the system.
+   - You can monitor CPU usage using the Task Manager (Ctrl + Shift + Esc).
+2. **Low RAM (Memory)**:
+   - Running multiple programs at once can exhaust the system's available memory, leading to slow
+performance.
+   - Try closing unnecessary applications and services or consider upgrading your RAM.
+3. **Hard Drive (HDD) Issues**:
+   - If your hard drive is almost full or has issues, it can significantly slow down the system.
+   - Running a disk cleanup or defragmentation can help in improving speed.
+   - For SSDs, ensure that TRIM is enabled to maintain performance.
+4. **Too Many Startup Programs**:
+   - Applications that launch at startup can slow down the boot process and consume resources.
+   - Disable unnecessary startup programs via Task Manager or the System Configuration
+(msconfig).
+5. **Outdated Drivers**:
+   - Outdated or corrupted device drivers can lead to hardware malfunction and poor system
+performance.
+   - Regularly update your drivers from the Device Manager or the manufacturer's website.
+6. **Malware and Viruses**:
+   - Malware, viruses, and unwanted software can slow down a system by using up resources.
+   - Run a system scan using Windows Defender or a trusted antivirus tool.
+7. **Too Many Running Background Processes**:
+   - Running background processes, including those by third-party apps, can consume system
+resources.
+   - Review running processes and terminate unnecessary ones using Task Manager.
+Troubleshooting Steps:
+1. **Check Task Manager for High CPU or Memory Usage**:
+   Open Task Manager (Ctrl + Shift + Esc) and look for applications or processes using a lot of CPU
+or memory. End tasks that are unnecessary.
+2. **Run Disk Cleanup**:
+   Open "This PC", right-click the C: drive, select "Properties", and click on "Disk Cleanup". Delete
+unnecessary files.
+3. **Run System File Checker (SFC)**:
+   Open Command Prompt as Administrator and run the command:
+   sfc /scannow
+   This will scan and repair any corrupted system files.
+4. **Check for Malware**:
+   Run a full system scan using Windows Defender or third-party antivirus software.
+5. **Disable Startup Programs**:
+   Open Task Manager (Ctrl + Shift + Esc), go to the Startup tab, and disable unnecessary
+programs.
+Conclusion:
+By addressing the causes of system slowness and following these troubleshooting steps, you can
+significantly improve the performance of your Windows system. Regular maintenance, including
+updating software and drivers, can also help in preventing future issues.
