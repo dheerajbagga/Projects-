@@ -1,0 +1,10 @@
+1) Pick up any publicly available PDF document (less than 25 pages) about a financial statement of a company and create embeddings and store it in a vector database. Create a Chat interface and integrate to the vector database . The chat interface will answer any questions related to the document.
+
+2) Generate call transcripts happening between a customer and a call agent regarding complaint on a purchase made on a retail web site (Eg.  Amazon)
+Create a solution to :
+Summarize the call transcript into one paragraph 
+Analyse the customer sentiment through the call
+Analyse the performance of the agent
+
+3) Build a set of business services and test them. Sample business logic (including some business rules) to process the inputs is in a document. These specs are to be used to generate code (RAG based coding)
+
